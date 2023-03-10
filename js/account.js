@@ -51,10 +51,6 @@ const profileInfo = () => {
 
 profileInfo();
 
-// const percent = (item) => {
-//   let percent = (item.price * item.salePercent) / 100;
-//   return item.price - Math.round(percent);
-// };
 
 deleteAcc.addEventListener(`click`, async () => {
   let changeUserStatus = {
